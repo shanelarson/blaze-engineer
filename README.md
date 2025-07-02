@@ -121,7 +121,7 @@ if (res.error) {
 
 ## License
 
-MIT
+UNLICENSED
 
 ---
 
