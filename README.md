@@ -58,7 +58,7 @@ console.log(jobs);
 
 Every method returns the raw JSON response from the Blaze Engineer API, including the `error` field if one occurs.
 
-### Authentication
+### Users
 
 | Method                             | Description                                                                |
 | ---------------------------------- | -------------------------------------------------------------------------- |

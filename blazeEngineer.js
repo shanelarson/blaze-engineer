@@ -1,4 +1,4 @@
-export class BlazeEngineer {
+export default class BlazeEngineer {
     #token = null;
     #apiBase = 'https://api.blaze.engineer/';
 
@@ -44,11 +44,11 @@ export class BlazeEngineer {
 
     // --- Users ---
     async signup(email, password, betaKey) {
-        return await this.#post('signup', { email, password, betaKey });
+        return await this.#post('users/signup', { email, password, betaKey });
     }
 
     async login(email, password) {
-        return await this.#post('login', { email, password });
+        return await this.#post('users/login', { email, password });
     }
 
     // --- Keys (Authorized) ---

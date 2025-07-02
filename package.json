@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "blaze-engineer",
+  "version": "1.0.0",
+  "description": "Blaze Engineer JavaScript/NodeJS Client Library.",
+  "main": "blazeEngineer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanelarson/blaze-engineer.git"
+  },
+  "author": "Shane Larson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/shanelarson/blaze-engineer/issues"
+  },
+  "homepage": "https://github.com/shanelarson/blaze-engineer#readme"
+}
