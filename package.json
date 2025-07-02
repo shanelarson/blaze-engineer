@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "blaze-engineer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blaze Engineer JavaScript/NodeJS Client Library.",
   "main": "blazeEngineer.js",
   "scripts": {
