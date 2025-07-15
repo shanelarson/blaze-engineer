@@ -131,7 +131,7 @@ export default class BlazeEngineer {
         return await this.#post('masterFiles/view', { id }, true);
     }
 
-    async listMasterFiles() {
-        return await this.#post('masterFiles/list', {}, true);
+    async listMasterFiles(repoID) {
+        return await this.#post('masterFiles/list', { repoID }, true);
     }
 }

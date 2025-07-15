@@ -102,11 +102,11 @@ Every method returns the raw JSON response from the Blaze Engineer API, includin
 
 ### MasterFiles
 
-| Method                        | Description                                 |
-| ----------------------------- | ------------------------------------------- |
-| `editMasterFile(id, content)` | Edit a master file's content                |
-| `viewMasterFile(id)`          | View a master file by ID                    |
-| `listMasterFiles()`           | List all master files for your repositories |
+| Method                        | Description                                  |
+|-------------------------------| -------------------------------------------- |
+| `editMasterFile(id, content)` | Edit a master file's content                 |
+| `viewMasterFile(id)`          | View a master file by ID                     |
+| `listMasterFiles(repoID)`     | List all master files for a given repository |
 
 ### Credits
 
