@@ -109,6 +109,14 @@ export default class BlazeEngineer {
         return await this.#post('tokens/remove', { id }, true);
     }
 
+    async viewToken(id) {
+        return await this.#post('tokens/view', { id }, true);
+    }
+
+    async listTokens() {
+        return await this.#post('tokens/list', {}, true);
+    }
+
     // --- Credits (Authorized) ---
     async viewCredits() {
         return await this.#post('credits/view', {}, true);

@@ -93,10 +93,12 @@ Every method returns the raw JSON response from the Blaze Engineer API, includin
 
 ### Tokens
 
-| Method            | Description                                 |
-| ----------------- | ------------------------------------------- |
-| `addToken(name)`  | Add a new token (returns token and tokenID) |
-| `removeToken(id)` | Remove a token by ID                        |
+| Method            | Description                                           |
+| ----------------- | ----------------------------------------------------- |
+| `addToken(name)`  | Add a new token (returns token and tokenID)           |
+| `removeToken(id)` | Remove a token by ID                                  |
+| `viewToken(id)`   | View a token by ID (returns id, name, and token)      |
+| `listTokens()`    | List all tokens (each has id, name, and token fields) |
 
 ### MasterFiles
 
