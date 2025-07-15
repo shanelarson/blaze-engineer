@@ -91,6 +91,21 @@ Every method returns the raw JSON response from the Blaze Engineer API, includin
 | `viewJob(id)`                              | View a job by ID |
 | `listJobs()`                               | List all jobs    |
 
+### Tokens
+
+| Method            | Description                                 |
+| ----------------- | ------------------------------------------- |
+| `addToken(name)`  | Add a new token (returns token and tokenID) |
+| `removeToken(id)` | Remove a token by ID                        |
+
+### MasterFiles
+
+| Method                        | Description                                 |
+| ----------------------------- | ------------------------------------------- |
+| `editMasterFile(id, content)` | Edit a master file's content                |
+| `viewMasterFile(id)`          | View a master file by ID                    |
+| `listMasterFiles()`           | List all master files for your repositories |
+
 ### Credits
 
 | Method          | Description                 |
@@ -127,6 +142,5 @@ UNLICENSED
 
 ## Links
 
-- [Blaze Engineer API Docs](https://shanelarsonvideos.s3.us-east-1.amazonaws.com/apiDocumentation.html)
-- [Getting Started Guide](https://shanelarsonvideos.s3.us-east-1.amazonaws.com/gettingStarted.html)
-
+- [Blaze Engineer API Docs](https://blaze.engineer/apiDocs)
+- [Getting Started Guide](https://blaze.engineer/gettingStarted)

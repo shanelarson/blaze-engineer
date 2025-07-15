@@ -100,8 +100,30 @@ export default class BlazeEngineer {
         return await this.#post('jobs/list', {}, true);
     }
 
+    // --- Tokens (Authorized) ---
+    async addToken(name) {
+        return await this.#post('tokens/add', { name }, true);
+    }
+
+    async removeToken(id) {
+        return await this.#post('tokens/remove', { id }, true);
+    }
+
     // --- Credits (Authorized) ---
     async viewCredits() {
         return await this.#post('credits/view', {}, true);
+    }
+
+    // --- MasterFiles (Authorized) ---
+    async editMasterFile(id, content) {
+        return await this.#post('masterFiles/edit', { id, content }, true);
+    }
+
+    async viewMasterFile(id) {
+        return await this.#post('masterFiles/view', { id }, true);
+    }
+
+    async listMasterFiles() {
+        return await this.#post('masterFiles/list', {}, true);
     }
 }
