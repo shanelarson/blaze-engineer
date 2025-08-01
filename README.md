@@ -2,9 +2,9 @@
 
 &#x20;&#x20;
 
-Easily interact with the [Blaze Engineer API](https://api.blaze.engineer/) in Node.js applications.
+Easily interact with the [Blaze Engineer - API](https://blaze.engineer/), your AI-powered code engineering platform. in Node.js applications.
 
-This package provides a modern, promise-based Node.js class for rapid automation, scripting, and integration with Blaze Engineer for GitOps, CI/CD, and code automation.
+This package provides a modern, promise-based Node.js class for rapid automation, scripting, and integration with Blaze Engineer - API for GitOps, Code Automation, and CI/CD.
 
 ---
 
@@ -132,7 +132,7 @@ if (res.error) {
 ## Requirements
 
 - Node.js 18 or higher (uses global `fetch`)
-- An account on [Blaze Engineer API](https://api.blaze.engineer/)
+- An account on [Blaze Engineer - API](https://blaze.engineer/)
 
 ---
 
@@ -144,5 +144,10 @@ UNLICENSED
 
 ## Links
 
-- [Blaze Engineer API Docs](https://blaze.engineer/apiDocs)
-- [Getting Started Guide](https://blaze.engineer/gettingStarted)
+- [Blaze Engineer - Homepage](https://blaze.engineer)
+- [Blaze Engineer - Getting Started Guide](https://blaze.engineer/gettingStarted)
+- [Blaze Engineer - API Documentation](https://blaze.engineer/apiDocs)
+- [Blaze Engineer - API Playground](https://blaze.engineer/apiPlayground)
+- [Blaze Engineer - Writing Good Tasks Guide](https://blaze.engineer/apiDocs)
+- [Blaze Engineer - Interactive CLI on NPM](https://www.npmjs.com/package/blaze-engineer-cli)
+- [Blaze Engineer - Interactive CLI on GitHub](https://github.com/shanelarson/blaze-engineer-cli)
