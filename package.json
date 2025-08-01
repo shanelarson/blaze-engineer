@@ -3,6 +3,17 @@
   "name": "blaze-engineer",
   "version": "1.0.6",
   "description": "Blaze Engineer JavaScript/NodeJS Client Library.",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "nodejs",
+    "ai",
+    "ai coding",
+    "vibe coding",
+    "automated coding",
+    "coding agent",
+    "ai software engineer"
+  ],
   "main": "blazeEngineer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
